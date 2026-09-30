@@ -3,26 +3,28 @@
 ゆっくりMovieMaker4（YMM4）向けの自作拡張プラグイン（`.ymme`）を配布しているリポジトリです。  
 動画編集の効率化ツールから、立ち絵の生命感を高めるモーション拡張、Web技術を取り入れたリッチな背景プラグインまで、動画制作を快適・高品質にするプラグインを収録しています。
 
+すべてのプラグインに**自動アップデート機能**が内蔵されており、YMM4起動時に新しいバージョンが公開されている場合は自動で通知・更新が行われます。
+
 ---
 
-## 収録プラグイン一覧
+## 収録プラグイン一覧 & ダウンロード
 
-| プラグイン名 | 配布ファイル | 種別 | 概要 |
-| :--- | :--- | :--- | :--- |
-| **立ち絵モーション拡張** | `BlinkExtension.ymme` | 立ち絵モーション | PSD立ち絵に自然なランダムまばたき・目そらし・リアルな呼吸を追加 |
-| **ぽちぽちボード** | `PochiPochiBoard.ymme` | 編集支援ツール | よく使うSE・画像・動画を30マスに登録し、1クリックやキー操作でタイムラインへ即ポン出し |
-| **セリフ追従** | `SerifRipple.ymme` | 編集支援ツール | セリフ修正で尺が変わった際、後ろの全レイヤーアイテムを自動で前後にずらすリップル編集 |
-| **セリフのタイムスタンプ保存** | `SerifTimestamp.ymme` | 出力・連携ツール | セリフを開始時刻順に整列し、YouTubeチャプター目次や台本、表計算TSVとして一発書き出し |
-| **ショート切り抜き** | `ShortClip.ymme` | 編集支援ツール | 通常の横動画から縦型ショート（1080×1920）の別タブシーンをワンクリック自動生成 |
-| **HTML背景プラグイン** | `WeCasBackground.ymme` | 図形・背景演出 | HTML/CSS/JS（GSAP、Tailwind CSS等）のWebアニメーションをYMM4上で直接レンダリング |
-
-※各プラグインのより詳細な機能説明や設定項目は、同梱されている各 `.txt` ファイルをご覧ください。
+| プラグイン名 | 最新リリース / ダウンロード | 詳細解説 | 種別 | 概要 |
+| :--- | :--- | :---: | :--- | :--- |
+| **立ち絵モーション拡張** | [v1.0.2 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/BlinkExtension-v1.0.2/BlinkExtension.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/BlinkExtension-v1.0.2)) | [詳細](BlinkExtension.txt) | 立ち絵モーション | PSD立ち絵に自然なランダムまばたき・目そらし・リアルな呼吸を追加 |
+| **ぽちぽちボード** | [v1.1.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/PochiPochiBoard-v1.1.1/PochiPochiBoard.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/PochiPochiBoard-v1.1.1)) | [詳細](PochiPochiBoard.txt) | 編集支援ツール | よく使うSE・画像・動画を30マスに登録し、1クリックやキー操作でタイムラインへ即ポン出し |
+| **セリフ追従** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifRipple-v1.0.1/SerifRipple.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifRipple-v1.0.1)) | [詳細](SerifRipple.txt) | 編集支援ツール | セリフ修正で尺が変わった際、後ろの全レイヤーアイテムを自動で前後にずらすリップル編集 |
+| **セリフのタイムスタンプ保存** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifTimestamp-v1.0.1/SerifTimestamp.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifTimestamp-v1.0.1)) | [詳細](SerifTimestamp.txt) | 出力・連携ツール | セリフを開始時刻順に整列し、YouTubeチャプター目次や台本、表計算TSVとして一発書き出し |
+| **ショート切り抜き** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/ShortClip-v1.0.1/ShortClip.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/ShortClip-v1.0.1)) | [詳細](ShortClip.txt) | 編集支援ツール | 通常の横動画から縦型ショート（1080×1920）の別タブシーンをワンクリック自動生成 |
+| **HTML背景プラグイン** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.0.1/WeCasBackground.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.0.1)) | [詳細](WeCasBackground.txt) | 図形・背景演出 | HTML/CSS/JS（GSAP、Tailwind CSS等）のWebアニメーションをYMM4上で直接レンダリング |
 
 ---
 
 ## 各プラグインの特徴と機能紹介
 
-### 1. 立ち絵モーション拡張（BlinkExtension.ymme）
+### 1. 立ち絵モーション拡張（BlinkExtension）
+- **ダウンロード**：[BlinkExtension.ymme (v1.0.2)](https://github.com/KisaragiIchigo/ymme/releases/download/BlinkExtension-v1.0.2/BlinkExtension.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/BlinkExtension-v1.0.2) ｜ [詳細解説テキスト](BlinkExtension.txt)
+
 PSD立ち絵に「自然なランダムまばたき」「目そらし」「リアルな呼吸」を自動で追加するプラグインです。
 
 - **自然なゆらぎまばたき**：機械的な等間隔ではなく、人間味のあるランダム周期でまばたき（最短間隔ガード付き）。
@@ -35,7 +37,9 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 
 ---
 
-### 2. ぽちぽちボード（PochiPochiBoard.ymme）
+### 2. ぽちぽちボード（PochiPochiBoard）
+- **ダウンロード**：[PochiPochiBoard.ymme (v1.1.1)](https://github.com/KisaragiIchigo/ymme/releases/download/PochiPochiBoard-v1.1.1/PochiPochiBoard.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/PochiPochiBoard-v1.1.1) ｜ [詳細解説テキスト](PochiPochiBoard.txt)
+
 よく使う効果音（SE）・画像・動画を登録し、1クリックやキーボード操作で再生ヘッド位置へ瞬時に配置できるサンプラーツールです。
 
 - **30マスの直感サンプラー**：6×5マスに素材を登録し、押すだけでタイムラインに即座に配置。複数ページ対応で動画シリーズごとに素材を整理可能。
@@ -47,7 +51,9 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 
 ---
 
-### 3. セリフ追従（SerifRipple.ymme）
+### 3. セリフ追従（SerifRipple）
+- **ダウンロード**：[SerifRipple.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/SerifRipple-v1.0.1/SerifRipple.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifRipple-v1.0.1) ｜ [詳細解説テキスト](SerifRipple.txt)
+
 セリフの文字修正や音声再生成でボイスの長さが伸び縮みしたとき、後ろにある全レイヤーのアイテムを自動でまとめて前後にずらしてくれるリップル編集プラグインです。
 
 - **全レイヤー一括追従**：セリフの尺が変わった瞬間、後続の立ち絵、表情、効果音、画像、テロップなどをまとめて同じフレーム数だけ自動シフト。
@@ -59,7 +65,9 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 
 ---
 
-### 4. セリフのタイムスタンプ保存（SerifTimestamp.ymme）
+### 4. セリフのタイムスタンプ保存（SerifTimestamp）
+- **ダウンロード**：[SerifTimestamp.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/SerifTimestamp-v1.0.1/SerifTimestamp.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifTimestamp-v1.0.1) ｜ [詳細解説テキスト](SerifTimestamp.txt)
+
 タイムライン上の全セリフを開始時刻順に並べ、YouTube概要欄のチャプター目次や台本、表計算用データとして一瞬で書き出し・コピーできるツールです。
 
 - **フレーム精度の正確な時刻**：フレーム番号とfpsから時刻を整数計算するため、小数点の累積誤差ゼロ。
@@ -73,7 +81,9 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 
 ---
 
-### 5. ショート切り抜き（ShortClip.ymme）
+### 5. ショート切り抜き（ShortClip）
+- **ダウンロード**：[ShortClip.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/ShortClip-v1.0.1/ShortClip.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/ShortClip-v1.0.1) ｜ [詳細解説テキスト](ShortClip.txt)
+
 通常の横動画（16:9）プロジェクトから、YouTubeショートやTikTok、Reels向けの縦型動画（1080×1920）の別シーン（タブ）をワンクリックで自動生成するプラグインです。
 
 - **ワンクリックで別シーン生成**：元動画のタイムラインを一切壊さず、新しいタブとして「ショート」「ショート 2」を非破壊生成。
@@ -86,7 +96,9 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 
 ---
 
-### 6. HTML背景プラグイン（WeCasBackground.ymme）
+### 6. HTML背景プラグイン（WeCasBackground）
+- **ダウンロード**：[WeCasBackground.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.0.1/WeCasBackground.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.0.1) ｜ [詳細解説テキスト](WeCasBackground.txt)
+
 HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニメーション演出を、動画に書き出すことなくYMM4タイムライン上で直接レンダリングする背景プラグインです。
 
 - **1フレーム単位の完全同期描画**：WebView2と独自仮想時計フックにより、実時間の処理速度に依存せずYMM4のフレーム・タイムライン時刻と1フレーム単位で完全同期。プレビューも動画出力も同一結果を保証。
@@ -103,10 +115,11 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 
 ## インストール方法
 
-1. ゆっくりMovieMaker4（YMM4）を起動します。
-2. 導入したい `.ymme` ファイルを YMM4 のウィンドウ上にドラッグ＆ドロップします（またはダブルクリックして開きます）。
-3. プラグインのインストール確認ダイアログが表示されるので、インストールを実行します。
-4. YMM4 を再起動すると、プラグインが有効になります。
+1. 上記の表または各項目から、使いたいプラグインの `.ymme` ファイルをダウンロードします。
+2. ゆっくりMovieMaker4（YMM4）を起動します。
+3. ダウンロードした `.ymme` ファイルを YMM4 のウィンドウ上にドラッグ＆ドロップします（またはファイルをダブルクリックして開きます）。
+4. プラグインのインストール確認ダイアログが表示されるので、インストールを実行します。
+5. YMM4 を再起動すると、プラグインが有効になります。
 
 ※ツール系のプラグイン（ぽちぽちボード、セリフ追従、セリフのタイムスタンプ保存、ショート切り抜き、Web演出ツール）は、YMM4上部メニューの「表示」→「パネル」またはツール一覧から開くことができます。
 
