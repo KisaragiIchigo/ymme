@@ -26,3 +26,9 @@ release
 __pycache__
 .venv
 .gemini/
+Releases/BlinkExtension.ymme
+Releases/PochiPochiBoard.ymme
+Releases/SerifRipple.ymme
+Releases/SerifTimestamp.ymme
+Releases/ShortClip.ymme
+Releases/WeCasBackground.ymme
