@@ -17,7 +17,7 @@
 | **セリフのタイムスタンプ保存** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifTimestamp-v1.0.1/SerifTimestamp.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifTimestamp-v1.0.1)) | [詳細](SerifTimestamp.txt) | 出力・連携ツール | セリフを開始時刻順に整列し、YouTubeチャプター目次や台本、表計算TSVとして一発書き出し |
 | **ショート切り抜き** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/ShortClip-v1.0.1/ShortClip.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/ShortClip-v1.0.1)) | [詳細](ShortClip.txt) | 編集支援ツール | 通常の横動画から縦型ショート（1080×1920）の別タブシーンをワンクリック自動生成 |
 | **HTML背景プラグイン** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.0.1/WeCasBackground.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.0.1)) | [詳細](WeCasBackground.txt) | 図形・背景演出 | HTML/CSS/JS（GSAP、Tailwind CSS等）のWebアニメーションをYMM4上で直接レンダリング |
-| **VRM立ち絵** | [v0.17.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.1/VrmTachie.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.1)) | [詳細](VrmTachie.txt) | 3D立ち絵・演出 | VRM・PMX対応の3D立ち絵描画、母音口パク、VLOG自撮り・手ブレ・カメラワーク |
+| **VRM立ち絵** | [v0.17.2 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.2/VrmTachie.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.2)) | [詳細](VrmTachie.txt) | 3D立ち絵・演出 | VRM・PMX対応の3D立ち絵描画、母音口パク、VLOG自撮り・手ブレ・カメラワーク |
 
 ---
 
@@ -115,7 +115,7 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 ---
 
 ### 7. VRM立ち絵（VrmTachie）
-- **ダウンロード**：[VrmTachie.ymme (v0.17.1)](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.1/VrmTachie.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.1) ｜ [詳細解説テキスト](VrmTachie.txt)
+- **ダウンロード**：[VrmTachie.ymme (v0.17.2)](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.2/VrmTachie.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.2) ｜ [詳細解説テキスト](VrmTachie.txt)
 
 3DのVRM・PMX（MMD）モデルをYMM4の立ち絵として自由自在に動かせるプラグインです。
 
