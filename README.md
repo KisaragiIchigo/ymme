@@ -17,6 +17,7 @@
 | **セリフのタイムスタンプ保存** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifTimestamp-v1.0.1/SerifTimestamp.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifTimestamp-v1.0.1)) | [詳細](SerifTimestamp.txt) | 出力・連携ツール | セリフを開始時刻順に整列し、YouTubeチャプター目次や台本、表計算TSVとして一発書き出し |
 | **ショート切り抜き** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/ShortClip-v1.0.1/ShortClip.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/ShortClip-v1.0.1)) | [詳細](ShortClip.txt) | 編集支援ツール | 通常の横動画から縦型ショート（1080×1920）の別タブシーンをワンクリック自動生成 |
 | **HTML背景プラグイン** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.0.1/WeCasBackground.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.0.1)) | [詳細](WeCasBackground.txt) | 図形・背景演出 | HTML/CSS/JS（GSAP、Tailwind CSS等）のWebアニメーションをYMM4上で直接レンダリング |
+| **VRM立ち絵** | [v0.17.0 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.0/VrmTachie.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.0)) | [詳細](VrmTachie.txt) | 3D立ち絵・演出 | VRM・PMX対応の3D立ち絵描画、母音口パク、VLOG自撮り・手ブレ・カメラワーク |
 
 ---
 
@@ -110,6 +111,23 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
   - ChatGPTやClaudeなどのAIが返したコードを丸ごと貼り付けるだけでHTML/JSを自動切り分け
   - 尺の10%/50%/90%のサムネイルプレビューとエラー検出で動作確認
   - 空いている最奥の背景レイヤーへ即座にタイムライン配置
+
+---
+
+### 7. VRM立ち絵（VrmTachie）
+- **ダウンロード**：[VrmTachie.ymme (v0.17.0)](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.0/VrmTachie.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.0) ｜ [詳細解説テキスト](VrmTachie.txt)
+
+3DのVRM・PMX（MMD）モデルをYMM4の立ち絵として自由自在に動かせるプラグインです。
+
+- **VRM & PMXモデル完全統合**：VRM 0.x / 1.0 および PMXを透過背景で高速描画（Direct2D共有メモリ転送）。
+- **リアルな母音口パク**：セリフから「あ・い・う・え・お」の母音を自動解析し、口形と音量に合わせてリアルタイム開閉。
+- **部位別の表情合成**：笑顔、怒り、照れ、ジト目、ウィンクなど多数の表情に対応し、部位ごとに自然合成。
+- **14種の内蔵VLOGモーション**：歩く、走る、周りを見る、見上げる、振り返る、自撮り構え、ピース、驚くなどがすぐ使える。
+- **VRMポーズメーカー付属**：MMDのポーズ（.vpd）、モーション（.vmd）、VRMAを取り込んでタグ登録可能。
+- **多彩なカメラ・視点**：三人称、一人称（目線）、自撮りモード（腕を伸ばして構えたスマホから撮影、体幹連動）。
+- **実写背景なじませ**：実写動画の手ブレ解析による上下揺れ同期、背景光・色味の陰影反映、床へのリアルな影落とし。
+- **専用映像エフェクト同梱**：手持ちスマホ揺れと立体パララックスを生み出す「VLOG手ブレ」、定番構図の「VLOGカメラワーク」。
+- **生命感あふれる動き**：まばたき、視線ゆらぎ、目そらし、胸や肩が動く呼吸、待機揺れ、髪・衣装の物理演算が自然に駆動。
 
 ---
 
