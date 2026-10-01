@@ -17,7 +17,8 @@
 | **セリフのタイムスタンプ保存** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifTimestamp-v1.0.1/SerifTimestamp.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifTimestamp-v1.0.1)) | [詳細](SerifTimestamp.txt) | 出力・連携ツール | セリフを開始時刻順に整列し、YouTubeチャプター目次や台本、表計算TSVとして一発書き出し |
 | **ショート切り抜き** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/ShortClip-v1.0.1/ShortClip.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/ShortClip-v1.0.1)) | [詳細](ShortClip.txt) | 編集支援ツール | 通常の横動画から縦型ショート（1080×1920）の別タブシーンをワンクリック自動生成 |
 | **HTML背景プラグイン** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.0.1/WeCasBackground.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.0.1)) | [詳細](WeCasBackground.txt) | 図形・背景演出 | HTML/CSS/JS（GSAP、Tailwind CSS等）のWebアニメーションをYMM4上で直接レンダリング |
-| **VRM立ち絵** | [v0.17.2 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.2/VrmTachie.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.2)) | [詳細](VrmTachie.txt) | 3D立ち絵・演出 | VRM・PMX対応の3D立ち絵描画、母音口パク、VLOG自撮り・手ブレ・カメラワーク |
+| **VRM立ち絵** | [v0.17.3 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.3/VrmTachie.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.3)) | [詳細](VrmTachie.txt) | 3D立ち絵・演出 | VRM・PMX対応の3D立ち絵描画、母音口パク、VLOG自撮り・手ブレ・カメラワーク |
+| **辞書の一括反映** | [v1.0.0 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/DictRefresh-v1.0.0/DictRefresh.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/DictRefresh-v1.0.0)) | [詳細](DictRefresh.txt) | 編集支援ツール | 音声合成ソフトやYMM4で辞書登録した語を、既存セリフの調声を崩さずピンポイントで一括反映 |
 
 ---
 
@@ -115,7 +116,7 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 ---
 
 ### 7. VRM立ち絵（VrmTachie）
-- **ダウンロード**：[VrmTachie.ymme (v0.17.2)](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.2/VrmTachie.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.2) ｜ [詳細解説テキスト](VrmTachie.txt)
+- **ダウンロード**：[VrmTachie.ymme (v0.17.3)](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.3/VrmTachie.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.3) ｜ [詳細解説テキスト](VrmTachie.txt)
 
 3DのVRM・PMX（MMD）モデルをYMM4の立ち絵として自由自在に動かせるプラグインです。
 
@@ -131,6 +132,21 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 
 ---
 
+### 8. 辞書の一括反映（DictRefresh）
+- **ダウンロード**：[DictRefresh.ymme (v1.0.0)](https://github.com/KisaragiIchigo/ymme/releases/download/DictRefresh-v1.0.0/DictRefresh.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/DictRefresh-v1.0.0) ｜ [詳細解説テキスト](DictRefresh.txt)
+
+音声合成ソフトやYMM4の辞書に単語を登録した後、配置済みセリフの読みを「登録した単語の部分だけ」安全に差し替えてまとめて作り直すプラグインです。
+
+- **ピンポイント差し替え**：手動で調整したアクセント・間・字幕の改行を壊さず、登録語の句だけを新しい読みに安全置換。
+- **字幕の手直しを保護**：字幕テキストは検索のみに使用し、保存済み発音データを土台にするため、改行や句読点削除があっても読みが崩れない。
+- **消えそうな間の自動手当て**：句読点を削った位置で単語がつながる場合、前後に「、」を補って読み直し、元の自然な間を保護。
+- **旧 → 新 の読み差分表示**：どこがどう変わるかを色分け比較できる一覧プレビュー。
+- **一括再生成＆完全Undo**：発音更新から音声再生成、長さ調整、重なり解消まで一発実行。Ctrl+Zでまとめてロールバック可能。
+- **「セリフ追従」連携**：ボイス尺の変化に合わせて、後ろの全レイヤーアイテムが自動で追従移動。
+- **安全ガード設計**：音声合成ソフト未起動などのエラー時も長さを壊さず安全停止。後から続きを再開可能。
+
+---
+
 ## インストール方法
 
 1. 上記の表または各項目から、使いたいプラグインの `.ymme` ファイルをダウンロードします。
@@ -139,7 +155,7 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 4. プラグインのインストール確認ダイアログが表示されるので、インストールを実行します。
 5. YMM4 を再起動すると、プラグインが有効になります。
 
-※ツール系のプラグイン（ぽちぽちボード、セリフ追従、セリフのタイムスタンプ保存、ショート切り抜き、Web演出ツール）は、YMM4上部メニューの「表示」→「パネル」またはツール一覧から開くことができます。
+※ツール系のプラグイン（ぽちぽちボード、セリフ追従、セリフのタイムスタンプ保存、ショート切り抜き、辞書の一括反映、Web演出ツール）は、YMM4上部メニューの「表示」→「パネル」またはツール一覧から開くことができます。
 
 ---
 
