@@ -9,24 +9,24 @@
 
 ## 収録プラグイン一覧 & ダウンロード
 
-| プラグイン名 | 最新リリース / ダウンロード | 詳細解説 | 種別 | 概要 |
+| プラグイン名 | 最新リリース / ダウンロード | 個別リポジトリ | 種別 | 概要 |
 | :--- | :--- | :---: | :--- | :--- |
-| **立ち絵モーション拡張** | [v1.0.2 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/BlinkExtension-v1.0.2/BlinkExtension.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/BlinkExtension-v1.0.2)) | [詳細](BlinkExtension.txt) | 立ち絵モーション | PSD立ち絵に自然なランダムまばたき・目そらし・リアルな呼吸を追加 |
-| **ぽちぽちボード** | [v1.1.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/PochiPochiBoard-v1.1.1/PochiPochiBoard.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/PochiPochiBoard-v1.1.1)) | [詳細](PochiPochiBoard.txt) | 編集支援ツール | よく使うSE・画像・動画を30マスに登録し、1クリックやキー操作でタイムラインへ即ポン出し |
-| **セリフ追従** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifRipple-v1.0.1/SerifRipple.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifRipple-v1.0.1)) | [詳細](SerifRipple.txt) | 編集支援ツール | セリフ修正で尺が変わった際、後ろの全レイヤーアイテムを自動で前後にずらすリップル編集 |
-| **セリフのタイムスタンプ保存** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifTimestamp-v1.0.1/SerifTimestamp.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifTimestamp-v1.0.1)) | [詳細](SerifTimestamp.txt) | 出力・連携ツール | セリフを開始時刻順に整列し、YouTubeチャプター目次や台本、表計算TSVとして一発書き出し |
-| **ショート切り抜き** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/ShortClip-v1.0.1/ShortClip.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/ShortClip-v1.0.1)) | [詳細](ShortClip.txt) | 編集支援ツール | 通常の横動画から縦型ショート（1080×1920）の別タブシーンをワンクリック自動生成 |
-| **HTML背景プラグイン** | [v1.2.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.2.1/WeCasBackground.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.2.1)) | [詳細](WeCasBackground.txt) | 図形・背景演出 | HTML/CSS/JS（GSAP、Tailwind CSS等）のWebアニメーションをYMM4上で直接レンダリング |
-| **VRM立ち絵** | [v0.17.4 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.4/VrmTachie.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.4)) | [詳細](VrmTachie.txt) | 3D立ち絵・演出 | VRM・PMX対応の3D立ち絵描画、母音口パク、VLOG自撮り・手ブレ・カメラワーク |
-| **辞書の一括反映** | [v1.0.0 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/DictRefresh-v1.0.0/DictRefresh.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/DictRefresh-v1.0.0)) | [詳細](DictRefresh.txt) | 編集支援ツール | 音声合成ソフトやYMM4で辞書登録した語を、既存セリフの調声を崩さずピンポイントで一括反映 |
-| **IRODORI-VOICE 音声プラグイン** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/IrodoriVoice-v1.0.1/IrodoriVoice.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/IrodoriVoice-v1.0.1)) | [詳細](IrodoriVoice.txt) | 音声・ボイス | IRODORI-VOICEの高品質音声を漢字かな表記のまま抑揚を崩さず読み上げ、自動起動・口パク同期対応 |
+| **立ち絵モーション拡張** | [v1.0.2 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/BlinkExtension-v1.0.2/BlinkExtension.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/BlinkExtension-v1.0.2)) | [ymm4-BlinkExtension](https://github.com/KisaragiIchigo/ymm4-BlinkExtension) | 立ち絵モーション | PSD立ち絵に自然なランダムまばたき・目そらし・リアルな呼吸を追加 |
+| **ぽちぽちボード** | [v1.1.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/PochiPochiBoard-v1.1.1/PochiPochiBoard.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/PochiPochiBoard-v1.1.1)) | [ymm4-PochiPochiBoard](https://github.com/KisaragiIchigo/ymm4-PochiPochiBoard) | 編集支援ツール | よく使うSE・画像・動画を30マスに登録し、1クリックやキー操作でタイムラインへ即ポン出し |
+| **セリフ追従** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifRipple-v1.0.1/SerifRipple.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifRipple-v1.0.1)) | [ymm4-SerifRipple](https://github.com/KisaragiIchigo/ymm4-SerifRipple) | 編集支援ツール | セリフ修正で尺が変わった際、後ろの全レイヤーアイテムを自動で前後にずらすリップル編集 |
+| **セリフのタイムスタンプ保存** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifTimestamp-v1.0.1/SerifTimestamp.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifTimestamp-v1.0.1)) | [ymm4-SerifTimestamp](https://github.com/KisaragiIchigo/ymm4-SerifTimestamp) | 出力・連携ツール | セリフを開始時刻順に整列し、YouTubeチャプター目次や台本、表計算TSVとして一発書き出し |
+| **ショート切り抜き** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/ShortClip-v1.0.1/ShortClip.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/ShortClip-v1.0.1)) | [ymm4--](https://github.com/KisaragiIchigo/ymm4--) | 編集支援ツール | 通常の横動画から縦型ショート（1080×1920）の別タブシーンをワンクリック自動生成 |
+| **HTML背景プラグイン** | [v1.2.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.2.1/WeCasBackground.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.2.1)) | [ymm4-WeCasBackground](https://github.com/KisaragiIchigo/ymm4-WeCasBackground) | 図形・背景演出 | HTML/CSS/JS（GSAP、Tailwind CSS等）のWebアニメーションをYMM4上で直接レンダリング |
+| **VRM立ち絵** | [v0.17.4 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.4/VrmTachie.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.4)) | [ymm4-VrmTachie](https://github.com/KisaragiIchigo/ymm4-VrmTachie) | 3D立ち絵・演出 | VRM・PMX対応の3D立ち絵描画、母音口パク、VLOG自撮り・手ブレ・カメラワーク |
+| **辞書の一括反映** | [v1.0.0 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/DictRefresh-v1.0.0/DictRefresh.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/DictRefresh-v1.0.0)) | [ymm4-DictRefresh](https://github.com/KisaragiIchigo/ymm4-DictRefresh) | 編集支援ツール | 音声合成ソフトやYMM4で辞書登録した語を、既存セリフの調声を崩さずピンポイントで一括反映 |
+| **IRODORI-VOICE 音声プラグイン** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/IrodoriVoice-v1.0.1/IrodoriVoice.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/IrodoriVoice-v1.0.1)) | [ymm4-IrodoriVoice](https://github.com/KisaragiIchigo/ymm4-IrodoriVoice) | 音声・ボイス | IRODORI-VOICEの高品質音声を漢字かな表記のまま抑揚を崩さず読み上げ、自動起動・口パク同期対応 |
 
 ---
 
 ## 各プラグインの特徴と機能紹介
 
 ### 1. 立ち絵モーション拡張（BlinkExtension）
-- **ダウンロード**：[BlinkExtension.ymme (v1.0.2)](https://github.com/KisaragiIchigo/ymme/releases/download/BlinkExtension-v1.0.2/BlinkExtension.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/BlinkExtension-v1.0.2) ｜ [詳細解説テキスト](BlinkExtension.txt)
+- **ダウンロード**：[BlinkExtension.ymme (v1.0.2)](https://github.com/KisaragiIchigo/ymme/releases/download/BlinkExtension-v1.0.2/BlinkExtension.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/BlinkExtension-v1.0.2) ｜ [個別リポジトリ](https://github.com/KisaragiIchigo/ymm4-BlinkExtension) ｜ [詳細解説テキスト](BlinkExtension.txt)
 
 PSD立ち絵に「自然なランダムまばたき」「目そらし」「リアルな呼吸」を自動で追加するプラグインです。
 
@@ -41,7 +41,7 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 ---
 
 ### 2. ぽちぽちボード（PochiPochiBoard）
-- **ダウンロード**：[PochiPochiBoard.ymme (v1.1.1)](https://github.com/KisaragiIchigo/ymme/releases/download/PochiPochiBoard-v1.1.1/PochiPochiBoard.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/PochiPochiBoard-v1.1.1) ｜ [詳細解説テキスト](PochiPochiBoard.txt)
+- **ダウンロード**：[PochiPochiBoard.ymme (v1.1.1)](https://github.com/KisaragiIchigo/ymme/releases/download/PochiPochiBoard-v1.1.1/PochiPochiBoard.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/PochiPochiBoard-v1.1.1) ｜ [個別リポジトリ](https://github.com/KisaragiIchigo/ymm4-PochiPochiBoard) ｜ [詳細解説テキスト](PochiPochiBoard.txt)
 
 よく使う効果音（SE）・画像・動画を登録し、1クリックやキーボード操作で再生ヘッド位置へ瞬時に配置できるサンプラーツールです。
 
@@ -55,7 +55,7 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 ---
 
 ### 3. セリフ追従（SerifRipple）
-- **ダウンロード**：[SerifRipple.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/SerifRipple-v1.0.1/SerifRipple.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifRipple-v1.0.1) ｜ [詳細解説テキスト](SerifRipple.txt)
+- **ダウンロード**：[SerifRipple.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/SerifRipple-v1.0.1/SerifRipple.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifRipple-v1.0.1) ｜ [個別リポジトリ](https://github.com/KisaragiIchigo/ymm4-SerifRipple) ｜ [詳細解説テキスト](SerifRipple.txt)
 
 セリフの文字修正や音声再生成でボイスの長さが伸び縮みしたとき、後ろにある全レイヤーのアイテムを自動でまとめて前後にずらしてくれるリップル編集プラグインです。
 
@@ -69,7 +69,7 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 ---
 
 ### 4. セリフのタイムスタンプ保存（SerifTimestamp）
-- **ダウンロード**：[SerifTimestamp.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/SerifTimestamp-v1.0.1/SerifTimestamp.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifTimestamp-v1.0.1) ｜ [詳細解説テキスト](SerifTimestamp.txt)
+- **ダウンロード**：[SerifTimestamp.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/SerifTimestamp-v1.0.1/SerifTimestamp.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifTimestamp-v1.0.1) ｜ [個別リポジトリ](https://github.com/KisaragiIchigo/ymm4-SerifTimestamp) ｜ [詳細解説テキスト](SerifTimestamp.txt)
 
 タイムライン上の全セリフを開始時刻順に並べ、YouTube概要欄のチャプター目次や台本、表計算用データとして一瞬で書き出し・コピーできるツールです。
 
@@ -85,7 +85,7 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 ---
 
 ### 5. ショート切り抜き（ShortClip）
-- **ダウンロード**：[ShortClip.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/ShortClip-v1.0.1/ShortClip.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/ShortClip-v1.0.1) ｜ [詳細解説テキスト](ShortClip.txt)
+- **ダウンロード**：[ShortClip.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/ShortClip-v1.0.1/ShortClip.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/ShortClip-v1.0.1) ｜ [個別リポジトリ](https://github.com/KisaragiIchigo/ymm4--) ｜ [詳細解説テキスト](ShortClip.txt)
 
 通常の横動画（16:9）プロジェクトから、YouTubeショートやTikTok、Reels向けの縦型動画（1080×1920）の別シーン（タブ）をワンクリックで自動生成するプラグインです。
 
@@ -100,7 +100,7 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 ---
 
 ### 6. HTML背景プラグイン（WeCasBackground）
-- **ダウンロード**：[WeCasBackground.ymme (v1.2.1)](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.2.1/WeCasBackground.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.2.1) ｜ [詳細解説テキスト](WeCasBackground.txt)
+- **ダウンロード**：[WeCasBackground.ymme (v1.2.1)](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.2.1/WeCasBackground.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.2.1) ｜ [個別リポジトリ](https://github.com/KisaragiIchigo/ymm4-WeCasBackground) ｜ [詳細解説テキスト](WeCasBackground.txt)
 
 HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニメーション演出を、動画に書き出すことなくYMM4タイムライン上で直接レンダリングする背景プラグインです。
 
@@ -117,7 +117,7 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 ---
 
 ### 7. VRM立ち絵（VrmTachie）
-- **ダウンロード**：[VrmTachie.ymme (v0.17.4)](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.4/VrmTachie.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.4) ｜ [詳細解説テキスト](VrmTachie.txt)
+- **ダウンロード**：[VrmTachie.ymme (v0.17.4)](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.4/VrmTachie.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.4) ｜ [個別リポジトリ](https://github.com/KisaragiIchigo/ymm4-VrmTachie) ｜ [詳細解説テキスト](VrmTachie.txt)
 
 3DのVRM・PMX（MMD）モデルをYMM4の立ち絵として自由自在に動かせるプラグインです。
 
@@ -134,7 +134,7 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 ---
 
 ### 8. 辞書の一括反映（DictRefresh）
-- **ダウンロード**：[DictRefresh.ymme (v1.0.0)](https://github.com/KisaragiIchigo/ymme/releases/download/DictRefresh-v1.0.0/DictRefresh.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/DictRefresh-v1.0.0) ｜ [詳細解説テキスト](DictRefresh.txt)
+- **ダウンロード**：[DictRefresh.ymme (v1.0.0)](https://github.com/KisaragiIchigo/ymme/releases/download/DictRefresh-v1.0.0/DictRefresh.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/DictRefresh-v1.0.0) ｜ [個別リポジトリ](https://github.com/KisaragiIchigo/ymm4-DictRefresh) ｜ [詳細解説テキスト](DictRefresh.txt)
 
 音声合成ソフトやYMM4の辞書に単語を登録した後、配置済みセリフの読みを「登録した単語の部分だけ」安全に差し替えてまとめて作り直すプラグインです。
 
@@ -149,7 +149,7 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 ---
 
 ### 9. IRODORI-VOICE 音声プラグイン（IrodoriVoice）
-- **ダウンロード**：[IrodoriVoice.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/IrodoriVoice-v1.0.1/IrodoriVoice.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/IrodoriVoice-v1.0.1) ｜ [詳細解説テキスト](IrodoriVoice.txt)
+- **ダウンロード**：[IrodoriVoice.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/IrodoriVoice-v1.0.1/IrodoriVoice.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/IrodoriVoice-v1.0.1) ｜ [個別リポジトリ](https://github.com/KisaragiIchigo/ymm4-IrodoriVoice) ｜ [詳細解説テキスト](IrodoriVoice.txt)
 
 YMM4のキャラクター音声に「IRODORI-VOICE」を追加し、漢字かな混じりの表記のまま自然な抑揚で読み上げさせる音声プラグインです。
 
