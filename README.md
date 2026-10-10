@@ -16,9 +16,10 @@
 | **セリフ追従** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifRipple-v1.0.1/SerifRipple.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifRipple-v1.0.1)) | [詳細](SerifRipple.txt) | 編集支援ツール | セリフ修正で尺が変わった際、後ろの全レイヤーアイテムを自動で前後にずらすリップル編集 |
 | **セリフのタイムスタンプ保存** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/SerifTimestamp-v1.0.1/SerifTimestamp.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/SerifTimestamp-v1.0.1)) | [詳細](SerifTimestamp.txt) | 出力・連携ツール | セリフを開始時刻順に整列し、YouTubeチャプター目次や台本、表計算TSVとして一発書き出し |
 | **ショート切り抜き** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/ShortClip-v1.0.1/ShortClip.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/ShortClip-v1.0.1)) | [詳細](ShortClip.txt) | 編集支援ツール | 通常の横動画から縦型ショート（1080×1920）の別タブシーンをワンクリック自動生成 |
-| **HTML背景プラグイン** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.0.1/WeCasBackground.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.0.1)) | [詳細](WeCasBackground.txt) | 図形・背景演出 | HTML/CSS/JS（GSAP、Tailwind CSS等）のWebアニメーションをYMM4上で直接レンダリング |
-| **VRM立ち絵** | [v0.17.3 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.3/VrmTachie.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.3)) | [詳細](VrmTachie.txt) | 3D立ち絵・演出 | VRM・PMX対応の3D立ち絵描画、母音口パク、VLOG自撮り・手ブレ・カメラワーク |
+| **HTML背景プラグイン** | [v1.2.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.2.1/WeCasBackground.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.2.1)) | [詳細](WeCasBackground.txt) | 図形・背景演出 | HTML/CSS/JS（GSAP、Tailwind CSS等）のWebアニメーションをYMM4上で直接レンダリング |
+| **VRM立ち絵** | [v0.17.4 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.4/VrmTachie.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.4)) | [詳細](VrmTachie.txt) | 3D立ち絵・演出 | VRM・PMX対応の3D立ち絵描画、母音口パク、VLOG自撮り・手ブレ・カメラワーク |
 | **辞書の一括反映** | [v1.0.0 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/DictRefresh-v1.0.0/DictRefresh.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/DictRefresh-v1.0.0)) | [詳細](DictRefresh.txt) | 編集支援ツール | 音声合成ソフトやYMM4で辞書登録した語を、既存セリフの調声を崩さずピンポイントで一括反映 |
+| **IRODORI-VOICE 音声プラグイン** | [v1.0.1 ダウンロード](https://github.com/KisaragiIchigo/ymme/releases/download/IrodoriVoice-v1.0.1/IrodoriVoice.ymme) ([Release](https://github.com/KisaragiIchigo/ymme/releases/tag/IrodoriVoice-v1.0.1)) | [詳細](IrodoriVoice.txt) | 音声・ボイス | IRODORI-VOICEの高品質音声を漢字かな表記のまま抑揚を崩さず読み上げ、自動起動・口パク同期対応 |
 
 ---
 
@@ -99,7 +100,7 @@ PSD立ち絵に「自然なランダムまばたき」「目そらし」「リ�
 ---
 
 ### 6. HTML背景プラグイン（WeCasBackground）
-- **ダウンロード**：[WeCasBackground.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.0.1/WeCasBackground.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.0.1) ｜ [詳細解説テキスト](WeCasBackground.txt)
+- **ダウンロード**：[WeCasBackground.ymme (v1.2.1)](https://github.com/KisaragiIchigo/ymme/releases/download/WeCasBackground-v1.2.1/WeCasBackground.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/WeCasBackground-v1.2.1) ｜ [詳細解説テキスト](WeCasBackground.txt)
 
 HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニメーション演出を、動画に書き出すことなくYMM4タイムライン上で直接レンダリングする背景プラグインです。
 
@@ -116,7 +117,7 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 ---
 
 ### 7. VRM立ち絵（VrmTachie）
-- **ダウンロード**：[VrmTachie.ymme (v0.17.3)](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.3/VrmTachie.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.3) ｜ [詳細解説テキスト](VrmTachie.txt)
+- **ダウンロード**：[VrmTachie.ymme (v0.17.4)](https://github.com/KisaragiIchigo/ymme/releases/download/VrmTachie-v0.17.4/VrmTachie.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/VrmTachie-v0.17.4) ｜ [詳細解説テキスト](VrmTachie.txt)
 
 3DのVRM・PMX（MMD）モデルをYMM4の立ち絵として自由自在に動かせるプラグインです。
 
@@ -147,6 +148,21 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 
 ---
 
+### 9. IRODORI-VOICE 音声プラグイン（IrodoriVoice）
+- **ダウンロード**：[IrodoriVoice.ymme (v1.0.1)](https://github.com/KisaragiIchigo/ymme/releases/download/IrodoriVoice-v1.0.1/IrodoriVoice.ymme) ｜ [Releaseページ](https://github.com/KisaragiIchigo/ymme/releases/tag/IrodoriVoice-v1.0.1) ｜ [詳細解説テキスト](IrodoriVoice.txt)
+
+YMM4のキャラクター音声に「IRODORI-VOICE」を追加し、漢字かな混じりの表記のまま自然な抑揚で読み上げさせる音声プラグインです。
+
+- **原文のまま送る高精度読み上げ**：セリフをカナ変換せず漢字かな混じりのまま渡すため、文脈に応じた自然な抑揚をキープ。
+- **エンジン側の辞書がそのまま効く**：読み・アクセント辞書、フレーズ分割辞書、注釈絵文字などがエディタ上と同じように適用。
+- **スタイル選択対応**：喜怒哀楽などのスタイル（話し方）をキャラクター設定やボイスアイテムから手軽に切り替え。
+- **高音質な話速変更＆無音調整**：声質を損なわない高精度な伸縮処理で話速（50〜200%）を変更。
+- **波形解析による正確な母音口パク**：生成された音声波形から口パクを直接解析し、声の鳴りと口の動きが完全一致。
+- **エンジンの自動起動＆安全終了**：未起動時はバックグラウンドで自動起動し、YMM4終了時にジョブ連携で安全に自動停止。
+- **話者一覧キャッシュ**：エンジン停止中のオフライン環境でも既存プロジェクトの編集を継続可能。
+
+---
+
 ## インストール方法
 
 1. 上記の表または各項目から、使いたいプラグインの `.ymme` ファイルをダウンロードします。
@@ -155,7 +171,9 @@ HTML/CSS/JavaScript（GSAP、Tailwind CSS、anime.js）で書かれたWebアニ�
 4. プラグインのインストール確認ダイアログが表示されるので、インストールを実行します。
 5. YMM4 を再起動すると、プラグインが有効になります。
 
-※ツール系のプラグイン（ぽちぽちボード、セリフ追従、セリフのタイムスタンプ保存、ショート切り抜き、辞書の一括反映、Web演出ツール）は、YMM4上部メニューの「表示」→「パネル」またはツール一覧から開くことができます。
+※ツール系のプラグイン（ぽちぽちボード、セリフ追従、セリフのタイムスタンプ保存、ショート切り抜き、辞書の一括反映、Web演出ツール）は、YMM4上部メニューの「表示」→「パネル」またはツール一覧から開くことができます。  
+※「IRODORI-VOICE 音声プラグイン」は、YMM4の「設定」→「音声」→「IRODORI-VOICE」から話者一覧を更新後、キャラクター設定の「声の種類」から選択できます。
+
 
 ---
 
